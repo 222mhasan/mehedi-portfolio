@@ -1,9 +1,9 @@
 
 const Projects = () => {
     return (
-        <div>
-            <h1 className=" my-7 text-5xl text-center font-bold">Projects</h1>
-            <div className="flex">
+        <div className="my-20">
+            <h1 className=" my-7 text-5xl text-center text-white font-bold">Projects</h1>
+            <div className="flex mx-auto w-fit">
                 {/* projects 1 */}
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">

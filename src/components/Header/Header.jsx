@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Banner from "../Banner/Banner";
 const Header = () => {
 
     const links = <>
@@ -9,8 +10,8 @@ const Header = () => {
     </>
 
     return (
-        <div className="">
-            <div className="navbar bg-base-100 fixed">
+        <div >
+            <div className="navbar fixed bg-transparent text-white">
 
                 <div className="navbar-start ">
                     <div className="dropdown">
@@ -23,11 +24,11 @@ const Header = () => {
                             }
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Mehedi Hasan</a>
+                    <h1 className="btn btn-ghost text-3xl font-bold">Mehedi Hasan</h1>
                 </div>
 
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 text-xl text-whites hover:text-white ">
                         {
                             links
                         }

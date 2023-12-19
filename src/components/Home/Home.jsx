@@ -7,13 +7,17 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
     return (
-        <div className="border ">
-            <Header></Header>
-            <Banner></Banner>
-            <Projects></Projects>
-            <About></About>
-            <Contact></Contact>
-            <Footer></Footer>
+        <div className="border bg-black">
+            <div className="relative">
+                <Header className="fixed"></Header>
+                <Banner></Banner>
+                <Projects></Projects>
+                <About></About>
+                <Contact></Contact>
+                <Footer></Footer>
+            </div>
+
+
         </div>
     );
 };

@@ -1,7 +1,7 @@
 
 const About = () => {
     return (
-        <div>
+        <div className="">
             <h1 className=" my-7 text-5xl text-center font-bold">About Me</h1>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
